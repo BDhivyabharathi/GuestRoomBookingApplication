@@ -1,0 +1,48 @@
+/* Owner Dashboard Styles */
+
+.owner-dashboard {
+  background: #fff;
+  padding: 20px;
+  margin: 20px 0;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.owner-dashboard h2 {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+
+.room-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.room-card {
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  padding: 15px;
+  width: 300px;
+}
+
+.room-card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.room-card h3 {
+  font-size: 1.25rem;
+  margin: 10px 0;
+}
+
+.room-card p {
+  margin: 5px 0;
+  font-size: 0.875rem;
+  color: #555;
+}

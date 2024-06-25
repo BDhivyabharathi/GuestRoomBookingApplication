@@ -1,90 +1,70 @@
-# GuestRoomBookingApplication
+# Getting Started with Create React App
 
-Created new project : npx create-react-app project-name
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-**Libraries installed on the frontend : **
-**for Bootstrap**
-> npm i bootstrap react-bootstrap
-for axios - fetch data from third party API
-> npm i axios
+## Available Scripts
 
- **Libraries installed on the backend :**
- > npm i express mongoose cors bcryptjs 
+In the project directory, you can run:
 
-**Instructions to run the project**
+### `npm start`
 
-**Have to install nodemodules for both frontend and backend with the command on terminal**
-ProjectFolderPath/frontend>npm i 
-ProjectFolderPath/backend>npm i
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-**To Run the FrontEnd : **
-ProjectFolderPath>cd frontend
->npm start
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-**To Run the Backend :**
-ProjectFolderPath>cd backend 
->node server.js
+### `npm test`
 
-**To run json server :**
-ProjectFolderPath/frontend>cd public
-npx json-server --watch rooms.json --port 3003(optional port number)
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
+### `npm run build`
 
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-**Sample Working Schema:**
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-Sample MongoDB Data for room details
-_id:
-667a86f41144cf6e8cb203e9
-floorSize
-"4"
-name
-"Deluxe"
-numberOfBeds
-"2"
-photos
-"data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwgHBgkIBwg…"
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
+### `npm run eject`
 
-**For User Login after registration:**
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-For Owner Login:
-_id
-6679468cd12fbd94d6a52fba
-name
-"Dhivyabharathi "
-email
-"divyathoughts@gmail.com"
-password
-"$2a$10$jLL.e1rAE.VrxagMyztXRusQp8JSRS8UgME50FvjGKEoz8a19a2ei"
-mobile
-"06374107112"
-isOwner
-true
-createdAt
-2024-06-24T10:12:28.661+00:00
-updatedAt
-2024-06-24T10:12:28.661+00:00
-__v
-0
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-**For User Login :**
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-_id
-6679489bd12fbd94d6a52fc5
-name
-"db"
-email
-"abc@gmail.com"
-password
-"$2a$10$aEks2QYkQBoOnkfrB77Q1.FM8miyHsGFhMMOs2qwzicy92QfKOvjm"
-mobile
-"06374107112"
-isOwner
-false
-createdAt
-2024-06-24T10:21:15.480+00:00
-updatedAt
-2024-06-24T10:21:15.480+00:00
-__v
-0
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)

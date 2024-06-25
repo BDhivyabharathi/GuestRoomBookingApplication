@@ -1,0 +1,67 @@
+/* Header Styles */
+
+.navbar {
+  background-color: #f8f9fa;
+  border-bottom: 1px solid #dee2e6;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand {
+  display: flex;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+}
+
+.logo {
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+}
+
+.navbar-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #007bff;
+  text-align: center;
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar-nav {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-item {
+  margin-left: 20px;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #121111;
+  font-weight: bold;
+  font-size: 1rem;
+  transition: color 0.3s ease, background-color 0.3s ease, padding 0.3s ease, border-radius 0.3s ease;
+  padding: 5px 10px;
+}
+
+.nav-link:hover {
+  color: #fff;
+  background-color: #007bff;
+  border-radius: 5px;
+}
+
+@media (max-width: 768px) {
+  .navbar-title {
+    order: 2;
+    flex: 0 0 100%;
+    justify-content: center;
+    margin: 10px 0;
+  }
+}

@@ -1,0 +1,89 @@
+/* Container styles */
+.container {
+  max-width: max-content;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #afbfc2;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Heading styles */
+.container h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 32px;
+  color: #333;
+}
+
+.home-container {
+  text-align: center;
+  padding: 50px;
+}
+
+.homeHead {
+  text-align: center;
+  color: navy;
+  font-size: 3rem;
+}
+
+.para2 {
+  height: 100px;
+  width: 100%;
+  text-wrap: wrap;
+}
+
+/* .background {
+  background-image: url('https://lh3.googleusercontent.com/p/AF1QipPl6gJ3brevGBZhVQn5dPzXcYsABZeoiWKSkt7p=w287-h192-n-k-rw-no-v1');
+  background-size: cover;
+  background-position: center;
+  height: 40vh;
+  width: 100vw;
+} */
+
+ /* CSS for HomePage component */
+.carousel-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.flex-carousel {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.flex-carousel .carousel-inner {
+    display: flex;
+    flex-direction: row;
+}
+
+.carousel-item {
+    width: 700px !important;
+    height: 600px !important;
+}
+
+.room-details {
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    padding: 20px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    text-align: left;
+}
+
+.carousel-item .room-details {
+  color: white;
+}
+
+.card-hover-magnify {
+  transition: transform 0.2s ease;
+}
+
+.card-hover-magnify:hover {
+  transform: scale(1.1); 
+}

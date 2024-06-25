@@ -1,0 +1,85 @@
+/* Contact page */
+
+.c-img {
+    background-image: url('https://cdn.pixabay.com/photo/2015/01/13/13/21/paradise-598201_640.jpg');
+    background-size: 100%;
+    height: 600px;
+    text-decoration: solid;
+    color: rgb(0, 0, 0);
+    padding: 130px 70px 10px 1000px;   
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.contact-page {
+    width: 50%;
+    margin: auto;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(11, 194, 41, 0.1);
+    margin-top: 50px;
+    border-radius: 8px;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+p {
+    text-align: center;
+    color: #666;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+label {
+    color: #333;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+button {
+    padding: 10px;
+    background-color: #28a745;
+    border: none;
+    color: white;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #1c5c2a;
+}
+
+textarea {
+    resize: vertical;
+}
+
+.thank-you-message {
+    text-align: center;
+    color: #28a745;
+    margin-top: 20px;
+    font-weight: bold;
+}
